@@ -24,9 +24,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 25px;
+    padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 10px;
     position: fixed;
     width: 100%;
     top: 0px;
@@ -52,6 +53,7 @@ nav {
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+
 }
 
 nav ul li {
@@ -63,6 +65,18 @@ nav ul li {
     text-transform: capitalize;
     font-size: 1.5em;
     ;
+}
+
+nav div {
+    background-color: #a6c1ae;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    transition: .3s;
+}
+
+nav div:hover {
+    background-color: #487756
 }
 
 nav ul li:hover {
@@ -91,7 +105,7 @@ a.btn {
 
 .whoAmIArticle {
     width: 100%;
-    padding-top: 10vh;
+    padding-top: 20vh;
     height: 100vh;
     align-items: center;
 }
@@ -126,7 +140,7 @@ a.btn {
 
 .my-experience-article {
     width: 100%;
-    height: 100vh;
+
     display: grid;
 }
 
@@ -135,7 +149,8 @@ a.btn {
     width: 80%;
     padding-left: 2em;
     padding-top: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
+    padding-right: 2em;
     transition: transform .2s;
     font-size: 2em;
     height: auto;
@@ -183,11 +198,6 @@ configure section CSS
     display: inline-block;
 }
 
-
-.red {
-
-    background-color: red;
-}
 
 /*.who-am-i-section:hover {
  transform: scale(1.05);
@@ -241,7 +251,7 @@ configure section CSS
 }
 
 .span-h1 {
-    font-size: 2em;
+    font-size: 3em;
     display: inline-block;
 
 }
@@ -257,7 +267,7 @@ configure section CSS
 .img-home {
 
     width: auto;
-    height: 10em;
+    height: 7em;
     border-radius: 50%;
     display: inline-block;
 }
@@ -308,7 +318,7 @@ configure section CSS
     height: 1em;
     font-size: .7em;
     font-weight: bold;
-
+    line-height: 90%;
     color: rgb(87, 87, 87);
     ;
 
@@ -336,30 +346,104 @@ configure section CSS
     font-size: .7em;
 }
 
-/*
 
-.whoAmISectionH1 {
-    font-size: 1.2em;
-    font-weight: bold;
-    background-image: linear-gradient(0.2turn, rgb(255, 0, 0), yellow, rgb(55, 128, 0));
-    background-clip: text;
-    color: transparent
-}
-
-
-.articleContent:nth-child(even) {
-    background-color: #eac895;
-}
-
-.articleContent:nth-child(odd) {
-    background: #eac8959a;
-}
-
-
-.image-home {
-    vertical-align: middle;
-    border-radius: 50%;
-    width: 90%;
+.img-experience {
+    width: 10%;
     height: auto;
-    transform: translateY(10%);
-}*/
+    display: inline-block;
+    background-color: #00000021;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.education-information {
+    padding-left: 1em;
+    width: 90%;
+    display: inline-block;
+}
+
+.width100 {
+    display: inline-block;
+    width: 100%;
+}
+
+.education-description {
+    font-size: .5em;
+    display: inline-block;
+    line-height: 30%;
+
+}
+
+.title-section {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 90%;
+    color: rgb(87, 87, 87);
+}
+
+.projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.projects-article {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+
+.grid-projects {
+    padding-top: 2em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 10% 15%;
+    justify-content: center;
+
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    height: 500px;
+    border-radius: 0 0 6px 6px;
+    box-sizing: border-box;
+
+    border-radius: 5%;
+}
+
+.project-card-title {
+    justify-content: center;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1em;
+    height: 2em;
+    width: 100%;
+    position: relative;
+    background-color: #4877564a;
+    border-radius: 6px 6px 0 0;
+    
+}
+
+.project-cards img {
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: red;
+
+
+
+
+}

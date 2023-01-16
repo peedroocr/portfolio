@@ -3,7 +3,7 @@ const MyExperience = () => {
     return (<article className="my-experience-article" id="aboutMe">
         <section className="my-experience-section " >
             <div className="div-section-text-experience left">
-                <span className="span-h1 title-experience">Professional experience</span>
+                <span className="title-experience">Work experience</span>
                 <ul>
                     <li className="li-experience">
                         <span className="experience-title">KPMG – Senior Consultant </span>
@@ -42,44 +42,54 @@ const MyExperience = () => {
                                 <p className="experience-description">Implementation and configuration of NetReveal (Sofware that use SQL ) in international
                                     banking entities</p>
                             </li>
+                            <li>
+                                <p className="experience-description">Definition of Test Cases</p>
+                            </li>
+                            <li>
+                                <p className="experience-description">Development of scenarios in the Swift tool</p>
+                            </li>
                         </ul>
                     </li>
                     <li className="li-experience">
-                        <span className="experience-title">KPMG – Senior Consultant </span>
-                        <span className="subtitle-experience">June 2022 – Today</span>
-                        <p className="experience-description">Implementation and configuration of NetReveal in international
-                            banking entities</p>
+                        <span className="experience-title">The room 1.0 - Intern developer </span>
+                        <span className="subtitle-experience">March 2017 – June 2017</span>
+                        <ul>
+                            <li>
+                                <p className="experience-description">Developments with REACT, NodeJS and PHP</p>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
             <div className="div-section-text-experience right">
-                <span className="span-h1 title-experience">Professional experience</span>
+                <span className="title-experience">Education</span>
                 <ul>
-                    <li className="li-experience"><span className="">KPMG – Senior Consultant</span>
-                        <span className="subtitle-experience">June 2022 – Today</span>
-                        <p>Implementation and configuration of NetReveal in international
-                            banking entities</p>
+                    <li>
+                        <img src="./img/graduation.svg" alt="formation" className="img-experience" />
+                        <div className="education-information">
+                            <span className="experience-title width100">Web application development </span>
+                            <span className="education-description">IES Politecnico Jesus Marin 2015-2017</span>
+                        </div>
                     </li>
-                    <li className="li-experience"><span className="title-experience">KPMG – Senior Consultant</span>
-                        <span className="subtitle-experience">June 2022 – Today</span>
-                        <p>Implementation and configuration of NetReveal in international
-                            banking entities</p>
+                </ul>
+                <span className="span-h1 title-experience">Certifications</span>
+                <ul>
+                    <li>
+                        <img src="./img/udemy.svg" alt="formation" className="img-experience" />
+                        <div className="education-information ">
+                            <span className="experience-title width100">React - The Complete Guide </span>
+                            <span className="education-description">Udemy October 2020</span>
+                        </div>
                     </li>
-                    <li className="li-experience"><span className="title-experience">KPMG – Senior Consultant</span>
-                        <span className="subtitle-experience">June 2022 – Today</span>
-                        <p>Implementation and configuration of NetReveal in international
-                            banking entities</p>
-                    </li>
-                    <li className="li-experience"><span className="title-experience">KPMG – Senior Consultant</span>
-                        <span className="subtitle-experience">June 2022 – Today</span>
-                        <p>Implementation and configuration of NetReveal in international
-                            banking entities</p>
+                    <li>
+                        <img src="./img/udemy.svg" alt="formation" className="img-experience" />
+                        <div className="education-information">
+                            <span className="experience-title width100">2020 Complete Python Bootcamp</span>
+                            <span className="education-description">Udemy March 2020</span>
+                        </div>
                     </li>
                 </ul>
             </div>
-            {/*<div className="div-section-image right">
-            <img className="image-home" src="https://i.blogs.es/ceda9c/dalle/450_1000.jpg" />
-</div>*/}
         </section>
 
 

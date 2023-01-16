@@ -16,7 +16,7 @@ const WhoAmI = () => {
                     <img className="image-home" src="https://i.blogs.es/ceda9c/dalle/450_1000.jpg" />
     </div>*/}
             </section>
-            <a className="btn center item-block background-color-primary" href="aboutMe" >about me</a>
+            <a className="btn center item-block background-color-primary" href="./img/Pedro_Crespillo_Romero_CV_ENG.pdf" download="Pedro Crespillo Romero CV.pdf" >Download my CV</a>
             <div className="">
 
             </div>

@@ -3,11 +3,13 @@ const Header = () => {
     return (
         <header>
             <nav className="navBar">
-
-                <h2 className="titlePage">Welcome Page</h2>
+                <div>
+                    <h2 className="titlePage">PC</h2>
+                </div>
                 <ul >
-                    <li><a className="" href="/" >Home</a></li>
-                    <li><a className="" href="/" >About me</a></li>
+                    <li><a className="" href="/" >Experience</a></li>
+                    <li><a className="" href="/" >Projects</a></li>
+                    <li><a className="" href="/" >Skills</a></li>
                     <li><a className="" href="/" >Contact</a></li>
                     <li>
                         <a href="https://www.linkedin.com/in/pedro-crespillo-romero-499525140/" target="blank" className="svg-linkedin">
