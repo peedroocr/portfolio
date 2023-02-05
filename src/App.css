@@ -226,6 +226,9 @@ configure section CSS
     float: left;
 }
 
+.float-right {
+    float: right;
+}
 
 
 
@@ -326,9 +329,8 @@ configure section CSS
 
 .subtitle-experience {
     display: inline-block;
-    font-size: .5em;
+    font-size: .4em;
     line-height: 10px;
-
     height: 10px;
 }
 
@@ -339,6 +341,7 @@ configure section CSS
     text-transform: capitalize;
     font-size: 1.5em;
     color: rgb(87, 87, 87);
+
 }
 
 .experience-description {
@@ -416,7 +419,7 @@ configure section CSS
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #fff;
+
     height: 500px;
     border-radius: 0 0 6px 6px;
     box-sizing: border-box;
@@ -434,16 +437,84 @@ configure section CSS
     position: relative;
     background-color: #4877564a;
     border-radius: 6px 6px 0 0;
-    
+
 }
 
 .project-cards img {
     height: auto;
     width: 100%;
     position: relative;
-    background-color: red;
 
+}
 
+.description-projects {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    background-color: #4877564a;
+    border-radius: 0 0 6px 6px;
+    padding: 15px;
+}
 
+.description-projects p {
 
+    height: 80px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.height-img {
+    display: inline-block;
+    padding-top: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+
+}
+
+.description-projects span a {
+    padding: 5px;
+    transition: .2s;
+}
+
+.description-projects span a:hover {
+    fill: rgb(87, 87, 87);
+}
+
+.skill-information {
+    margin-left: 10px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.img-skills {
+    margin-right: 30px;
+    width: 100%;
+}
+
+.skill-title {
+    font-size: 0.5em;
+
+}
+
+.title-experience.skills {
+    margin-top: 10px;
+}
+
+footer {
+
+    width: 100%;
+    height: 15vh;
+    background-color: #4877564a;
+    margin-top: 100px;
+}
+
+footer section {
+    margin-left: 20%;
+    width: 60%;
+    background-color: #000000;
+    height: 100%;
+    ;
 }

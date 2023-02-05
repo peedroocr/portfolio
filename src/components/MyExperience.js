@@ -51,7 +51,7 @@ const MyExperience = () => {
                         </ul>
                     </li>
                     <li className="li-experience">
-                        <span className="experience-title">The room 1.0 - Intern developer </span>
+                        <span className="experience-title">The room 1.0 - Intern </span>
                         <span className="subtitle-experience">March 2017 – June 2017</span>
                         <ul>
                             <li>
@@ -86,6 +86,34 @@ const MyExperience = () => {
                         <div className="education-information">
                             <span className="experience-title width100">2020 Complete Python Bootcamp</span>
                             <span className="education-description">Udemy March 2020</span>
+                        </div>
+                    </li>
+                </ul>
+                <span className="title-experience skills">Skills</span>
+                <ul>
+                    <li>
+                        <div className="skill-information">
+                            <img src="./img/javascript.svg" alt="javascript" className="img-skills" />
+                            <span className="skill-title">Javascript </span>
+
+                        </div>
+                        <div className="skill-information">
+                            <img src="./img/react.svg.png" alt="javascript" className="img-skills" />
+                            <span className="skill-title">React</span>
+
+                        </div>
+                        <div className="skill-information">
+                            <img src="./img/mysql-ar21.svg" alt="javascript" className="img-skills" />
+                            <span className="skill-title">Mysql </span>
+
+                        </div>
+                        <div className="skill-information">
+                            <img src="./img/Node.js_logo.svg" alt="javascript" className="img-skills" />
+                            <span className="skill-title">NodeJs </span>
+                        </div>
+                        <div className="skill-information">
+                            <img src="./img/php.svg" alt="javascript" className="img-skills" />
+                            <span className="skill-title">PHP </span>
                         </div>
                     </li>
                 </ul>
